@@ -3,10 +3,10 @@
 using namespace std;
 int main()
 {
-    double a,b;
+    double num1,num2;
     cout<<"Enter the first decimal no.: ";
-    cin>>a;
+    cin>>num1;
     cout<<"Enter the second decimal no.: ";
-    cin>>b;
+    cin>>num2;
     cout<<"The product is "<<a*b<<endl;
 }
