@@ -8,5 +8,5 @@ int main()
     cin>>num1;
     cout<<"Enter the second decimal no.: ";
     cin>>num2;
-    cout<<"The product is "<<a*b<<endl;
+    cout<<"The product is "<<num1*num2<<endl;
 }
