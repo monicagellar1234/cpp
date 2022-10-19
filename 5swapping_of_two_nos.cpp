@@ -3,12 +3,12 @@
 using namespace std;
 int main()
 {
-    int a,b,temp;
+    int num1,num2,temp_num;
     cout<<"Enter two nos: ";
-    cin>>a>>b;
-    cout<<"Before swapping:"<<endl<<"a = "<<a<<endl<<"b = "<<b<<endl;
-    temp=a;
-    a=b;
-    b=temp;
-    cout<<"After swapping:"<<endl<<"a = "<<a<<endl<<"b = "<<b<<endl;
+    cin>>num1>>num2;
+    cout<<"Before swapping:"<<endl<<"num1 = "<<num1<<endl<<"num2 = "<<num2<<endl;
+    temp_num=mum1;
+    num1=num2;
+    num2=temp_num;
+    cout<<"After swapping:"<<endl<<"a = "<<num1<<endl<<"b = "<<num2<<endl;
 }
