@@ -3,12 +3,12 @@
 using namespace std;
 int main()
 {
-    int a,b,c,d;
+    int n1,n2,q1,r1;
     cout<<"Enter dividend: ";
-    cin>>a;
+    cin>>n1;
     cout<<"Enter divisor: ";
-    cin>>b;
-    c=a/b;
-    d=a%b;
+    cin>>n2;
+    q1=n1/n2;
+    q2=n1%n2;
     cout<<"The quotient is "<<c<<" and the remainder is "<<d<<"."<<endl;
 }
